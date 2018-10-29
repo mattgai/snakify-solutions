@@ -86,6 +86,10 @@ a = float(input())
 print(a % 1)
 
 #First digit after decimal point
+x = float(input())
+y = x % .1
+z = x % 1
+print((z-y) * 10)
 
 #Car route
 import math
