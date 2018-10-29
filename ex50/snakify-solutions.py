@@ -88,14 +88,42 @@ print(a % 1)
 #First digit after decimal point
 
 #Car route
+import math
+a = int(input())
+b = int(input())
+c = math.ceil(b / c)
+print(c)
 
 #Digital clock
+a = int(input())
+b = a//60
+c = a%60
+print(b,c)
 
 #Total cost
+a = int(input())
+b = int(input())
+c = int(input())
+e = (100 * a)
+g = e + b
+k = g * c
+s = k%100
+r = k//100
+print(r, s)
 
 #Clock face - 1
+a = int(input())
+x = a * 30
+b = int(input())
+y = float(b/2)
+c = int(input())
+z = float(c/120)
+print(x + y + z)
 
 #Clock face - 2
+import math
+a = float(input())
+print(abs((a*12) % 360))
 
 #UNIT 3
 
