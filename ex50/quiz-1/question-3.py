@@ -1,0 +1,6 @@
+a = int(input())
+b = (a % 100)
+c = (a % 10)
+d = ((b-c)/10)
+e = (c*10)
+print(e + d)

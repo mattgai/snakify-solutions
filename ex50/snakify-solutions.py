@@ -183,16 +183,65 @@ else:
     print('NO')
 
 #Chess board - same color
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if (x1 + y1 + x2 + y2) % 2 == 0:
+    print('YES')
+else:
+    print('NO')
 
 #King move
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if abs(x1 - x2) <= 1 and abs(y1 - y2) <= 1:  
+    print('YES')
+else:
+    print('NO')
 
 #Bishop move
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if abs(a - c) == abs(b - d):
+    print('YES')
+else:
+    print('NO')
 
 #Queen move
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if abs(a - c) == abs(b - d) or a == c or b == d:
+    print('YES')
+else:
+    print('NO')
 
 #Knight move
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+x = abs(a - c)
+y = abs(b - d)
+if x == 1 and y == 2 or x == 2 and y == 1:
+    print('YES')
+else:
+    print('NO')
 
 #Chocolate bar
+a = int(input())
+b = int(input())
+c = int(input())
+if c < a * b and ((c % a == 0) or (c % b == 0)):
+    print('YES')
+else:
+    print('NO')
 
 #Leap year
 
